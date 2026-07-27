@@ -101,6 +101,32 @@ st.markdown(
         font-size: 0.92rem;
         margin: 0;
     }
+    /* Streamlit Tabs Customization — Warm Espresso Theme */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 16px;
+        justify-content: center;
+        border-bottom: 1px solid #3d2510;
+        padding-bottom: 4px;
+        margin-bottom: 1rem;
+    }
+    .stTabs [data-baseweb="tab"] {
+        background-color: transparent;
+        border-radius: 8px;
+        color: #c8a882;
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+    .stTabs [data-baseweb="tab"]:hover {
+        color: #f0c070;
+    }
+    .stTabs [aria-selected="true"] {
+        color: #c87941 !important;
+        background-color: rgba(200, 121, 65, 0.12) !important;
+    }
+    .stTabs [data-baseweb="tab-highlight"] {
+        background-color: #c87941 !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -213,8 +239,8 @@ tab1, tab2, tab3 = st.tabs(
 # TAB 1 — Semantic Search
 # ===========================================================================
 with tab1:
-    st.subheader("What are you craving?")
-    st.caption("Describe what you feel like eating in plain English.")
+    st.markdown("<h2 style='text-align: center; color: #f0c070; font-size: 1.5rem; margin-top: 0.5rem;'>What are you craving?</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: #c8a882; margin-bottom: 1.5rem;'>Describe what you feel like eating in plain English.</p>", unsafe_allow_html=True)
 
     query1    = st.text_input(
         "Your craving",
@@ -250,11 +276,8 @@ with tab1:
 # TAB 2 — Calorie-Range Filtered Search
 # ===========================================================================
 with tab2:
-    st.subheader("Search by Calorie Range")
-    st.caption(
-        "Filter is applied inside ChromaDB using `$gte`/`$lte` on the calories "
-        "metadata field — no Python-side filtering."
-    )
+    st.markdown("<h2 style='text-align: center; color: #f0c070; font-size: 1.5rem; margin-top: 0.5rem;'>Search by Calorie Range</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: #c8a882; margin-bottom: 1.5rem;'>Filter is applied inside ChromaDB using <code>$gte</code>/<code>$lte</code> on metadata.</p>", unsafe_allow_html=True)
 
     col_a, col_b = st.columns(2)
     with col_a:
@@ -330,11 +353,8 @@ with tab2:
 # TAB 3 — RAG Chatbot
 # ===========================================================================
 with tab3:
-    st.subheader("Chat with the Food AI")
-    st.caption(
-        "Ask anything about food — the AI retrieves relevant dishes from our "
-        "database before answering, so recommendations are always grounded."
-    )
+    st.markdown("<h2 style='text-align: center; color: #f0c070; font-size: 1.5rem; margin-top: 0.5rem;'>Chat with Foodie AI</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: #c8a882; margin-bottom: 1.5rem;'>Ask anything about food — our AI retrieves relevant dishes from our database before answering.</p>", unsafe_allow_html=True)
 
     # ── Session state ──────────────────────────────────────────────────────
     if "messages" not in st.session_state:
