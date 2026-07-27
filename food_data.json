@@ -611,5 +611,199 @@
     "taste_profile": "rich, earthy, mildly spicy",
     "dietary_type": "non-vegetarian",
     "description": "Pozole Rojo is one of Mexico's oldest ceremonial foods \u2014 a thick, almost prehistoric stew of hominy corn and pork simmered for hours in a deep-red broth made from dried guajillo and ancho chilies that stains everything with their brick-red pigment and complex, smoky depth. The hominy swells to the size of small flowers and has a uniquely soft, chewy texture unlike any other grain. Served with a feast of garnishes \u2014 shredded cabbage, crisp radishes, dried oregano, and lime \u2014 each bowl is customized by the diner into their own perfect meal."
+  },
+  {
+    "id": "31",
+    "name": "Chocolate Lava Cake",
+    "cuisine": "French",
+    "calories": 420,
+    "ingredients": [
+      "dark chocolate",
+      "butter",
+      "eggs",
+      "sugar",
+      "flour",
+      "vanilla"
+    ],
+    "cooking_method": "baked",
+    "taste_profile": "rich, sweet, molten, indulgent",
+    "dietary_type": "vegetarian",
+    "description": "Chocolate Lava Cake is the ultimate dessert indulgence \u2014 a warm, tender chocolate cake with a perfectly liquid molten center that floods the plate the moment a spoon breaks through. The exterior has a delicate crust that gives way to a river of pure, intense dark chocolate. Rich with butter and eggs, every bite is simultaneously light and devastatingly decadent. Perfect for kids and adults who love anything chocolate."
+  },
+  {
+    "id": "32",
+    "name": "Mango Sticky Rice",
+    "cuisine": "Thai",
+    "calories": 380,
+    "ingredients": [
+      "glutinous rice",
+      "fresh mango",
+      "coconut milk",
+      "sugar",
+      "salt",
+      "sesame seeds"
+    ],
+    "cooking_method": "steamed",
+    "taste_profile": "sweet, creamy, tropical, fragrant",
+    "dietary_type": "vegan",
+    "description": "Mango Sticky Rice is Thailand's most beloved dessert \u2014 plump, glossy glutinous rice soaked in sweetened coconut milk, served alongside slices of perfectly ripe, golden mango. The rice absorbs the coconut milk until every grain is tender, fragrant, and faintly sweet with a hint of salt that makes the sweetness sing. The contrast between the cool, silky mango and the warm, sticky rice is what makes this dish unforgettable. A perfect sweet treat for kids and families."
+  },
+  {
+    "id": "33",
+    "name": "Classic Pancakes with Maple Syrup",
+    "cuisine": "American",
+    "calories": 520,
+    "ingredients": [
+      "flour",
+      "eggs",
+      "milk",
+      "butter",
+      "baking powder",
+      "sugar",
+      "maple syrup",
+      "fresh berries"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "sweet, fluffy, buttery, comforting",
+    "dietary_type": "vegetarian",
+    "description": "Classic American pancakes are the definitive sweet breakfast \u2014 thick, golden, impossibly fluffy rounds stacked high and drowning in pure maple syrup. The batter is simple but the technique matters: the moment bubbles form on the surface is the exact right moment to flip, preserving that cloud-like interior. Topped with fresh berries and a generous pat of melting butter, these pancakes are the kind of morning food that makes children run to the table. Sweet, warm, and deeply comforting."
+  },
+  {
+    "id": "34",
+    "name": "Strawberry Cheesecake",
+    "cuisine": "American",
+    "calories": 490,
+    "ingredients": [
+      "cream cheese",
+      "graham crackers",
+      "butter",
+      "sugar",
+      "eggs",
+      "vanilla",
+      "fresh strawberries",
+      "strawberry jam"
+    ],
+    "cooking_method": "baked",
+    "taste_profile": "sweet, creamy, tangy, rich",
+    "dietary_type": "vegetarian",
+    "description": "Strawberry Cheesecake is the classic American dessert that never fails \u2014 a buttery graham cracker crust holding a dense, velvety cream cheese filling that is simultaneously rich and somehow light. The top is blanketed in glossy strawberry jam and fresh strawberries that cut through the richness with bright, fruity sweetness. The contrast between the crunchy base, the creamy filling, and the jammy fruit topping is what makes every slice feel complete. A universally loved sweet treat that kids absolutely adore."
+  },
+  {
+    "id": "35",
+    "name": "Churros with Chocolate Dipping Sauce",
+    "cuisine": "Spanish",
+    "calories": 440,
+    "ingredients": [
+      "flour",
+      "water",
+      "butter",
+      "eggs",
+      "sugar",
+      "cinnamon",
+      "dark chocolate",
+      "cream"
+    ],
+    "cooking_method": "fried",
+    "taste_profile": "sweet, crispy, cinnamon, indulgent",
+    "dietary_type": "vegetarian",
+    "description": "Churros are Spain's greatest street food gift to the world \u2014 long, ridged batons of fried dough rolled in cinnamon sugar until every surface is coated in a crackling, fragrant crust. The interior stays soft and slightly doughy, creating a perfect textural contrast with the crispy exterior. Served with a thick, dark chocolate dipping sauce that clings to every ridge, churros are impossible to eat without smiling. Sweet, warm, and endlessly fun to eat \u2014 the ultimate treat for kids and families."
+  },
+  {
+    "id": "36",
+    "name": "Honey Glazed Waffles with Fresh Fruit",
+    "cuisine": "Belgian",
+    "calories": 460,
+    "ingredients": [
+      "flour",
+      "eggs",
+      "milk",
+      "butter",
+      "yeast",
+      "sugar",
+      "honey",
+      "fresh strawberries",
+      "blueberries",
+      "whipped cream"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "sweet, crispy, honey, fruity",
+    "dietary_type": "vegetarian",
+    "description": "Belgian waffles are in a category of their own \u2014 deep-pocketed, golden, and impossibly crisp on the outside while remaining light and airy inside. Drizzled with warm honey that pools in every square pocket and topped with a cascade of fresh strawberries, blueberries, and a cloud of whipped cream, these waffles are a complete sweet breakfast experience. The honey adds floral sweetness that maple syrup cannot replicate. A perfect sweet morning dish that children love and adults secretly want just as much."
+  },
+  {
+    "id": "37",
+    "name": "Banana Nutella Crepes",
+    "cuisine": "French",
+    "calories": 410,
+    "ingredients": [
+      "flour",
+      "eggs",
+      "milk",
+      "butter",
+      "Nutella",
+      "fresh bananas",
+      "powdered sugar"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "sweet, chocolatey, banana, delicate",
+    "dietary_type": "vegetarian",
+    "description": "French crepes are the most elegant sweet breakfast \u2014 paper-thin, golden, lacy rounds that fold into perfect parcels around a generous spread of Nutella and sliced fresh banana. The crepe itself is almost neutral, a buttery canvas that lets the filling shine. The Nutella melts slightly from the warmth of the crepe, combining with the soft banana to create a sweet, chocolatey filling that is simultaneously rich and light. Dusted with powdered sugar and served warm, these crepes are irresistible for kids and sweet lovers of all ages."
+  },
+  {
+    "id": "38",
+    "name": "Cinnamon French Toast",
+    "cuisine": "American",
+    "calories": 390,
+    "ingredients": [
+      "brioche bread",
+      "eggs",
+      "milk",
+      "cinnamon",
+      "vanilla",
+      "butter",
+      "maple syrup",
+      "powdered sugar"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "sweet, cinnamon, custardy, warm",
+    "dietary_type": "vegetarian",
+    "description": "Cinnamon French Toast made with brioche is one of the great sweet breakfast dishes \u2014 thick slices of buttery brioche soaked in a spiced custard of eggs, milk, cinnamon, and vanilla, then pan-fried in butter until the outside caramelizes into a golden, slightly crisp crust while the inside remains soft and custardy. Dusted with powdered sugar and served with warm maple syrup, every bite is warm, fragrant, and deeply sweet. The kind of breakfast that makes weekend mornings feel like a celebration. Kids universally love it."
+  },
+  {
+    "id": "39",
+    "name": "Panna Cotta with Berry Coulis",
+    "cuisine": "Italian",
+    "calories": 320,
+    "ingredients": [
+      "cream",
+      "sugar",
+      "gelatin",
+      "vanilla",
+      "mixed berries",
+      "lemon juice"
+    ],
+    "cooking_method": "raw",
+    "taste_profile": "sweet, creamy, delicate, fruity",
+    "dietary_type": "vegetarian",
+    "description": "Panna Cotta is Italian simplicity at its finest \u2014 a barely-set cream pudding that trembles on the plate, so delicate it seems impossible it holds its shape. Made with just cream, sugar, and vanilla, the flavor is pure and clean, a perfect backdrop for a vibrant, tart berry coulis that cuts through the richness with bright fruit flavor. The contrast between the ivory cream and the deep crimson berry sauce is as beautiful as the taste. Light enough to feel elegant, sweet enough to satisfy any dessert craving."
+  },
+  {
+    "id": "40",
+    "name": "Tiramisu",
+    "cuisine": "Italian",
+    "calories": 450,
+    "ingredients": [
+      "mascarpone",
+      "espresso",
+      "ladyfingers",
+      "eggs",
+      "sugar",
+      "cocoa powder",
+      "rum"
+    ],
+    "cooking_method": "raw",
+    "taste_profile": "sweet, coffee, creamy, rich",
+    "dietary_type": "vegetarian",
+    "description": "Tiramisu is Italy's most famous dessert and one of the world's greatest \u2014 espresso-soaked ladyfingers layered beneath a cloud of whipped mascarpone and egg yolk cream, finished with a generous dusting of dark cocoa. The coffee-soaked biscuits are soft and intensely flavored, while the mascarpone cream is rich, airy, and just sweet enough to balance the bitterness of the espresso. Every spoonful delivers multiple textures and the complex interplay of sweet, bitter, and creamy that has made this dessert legendary."
   }
 ]

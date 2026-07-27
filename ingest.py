@@ -24,7 +24,7 @@ CHROMA_PATH = os.path.join(_HERE, "chroma_data")
 
 COLLECTION_NAME = "foods"
 EMBED_MODEL     = "mixedbread-ai/mxbai-embed-large-v1"
-EXPECTED_COUNT  = 30
+EXPECTED_COUNT  = 40
 
 
 # ---------------------------------------------------------------------------
