@@ -1,0 +1,615 @@
+[
+  {
+    "id": "food001",
+    "name": "Chicken Tikka Masala",
+    "cuisine": "Indian",
+    "calories": 450,
+    "ingredients": [
+      "chicken",
+      "tomatoes",
+      "cream",
+      "yogurt",
+      "garam masala",
+      "ginger",
+      "garlic",
+      "cumin"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "smoky, creamy, mildly spicy",
+    "dietary_type": "non-vegetarian",
+    "description": "Chicken Tikka Masala is the crown jewel of Indian-British fusion cuisine, featuring tender chunks of tandoor-grilled chicken nestled in a velvety, deep-orange tomato-cream sauce. The marinade of yogurt and aromatic spices penetrates the meat, giving it a wonderfully smoky char that contrasts beautifully with the rich, mellow gravy. Every bite delivers warmth from garam masala, earthiness from cumin, and a gentle heat that builds slowly at the back of the palate."
+  },
+  {
+    "id": "food002",
+    "name": "Margherita Pizza",
+    "cuisine": "Italian",
+    "calories": 520,
+    "ingredients": [
+      "pizza dough",
+      "tomato sauce",
+      "fresh mozzarella",
+      "basil",
+      "olive oil",
+      "salt"
+    ],
+    "cooking_method": "baked",
+    "taste_profile": "savory, fresh, tangy",
+    "dietary_type": "vegetarian",
+    "description": "Margherita Pizza is the purest expression of Italian culinary philosophy \u2014 a thin, blistered crust topped with bright San Marzano tomato sauce, pools of fresh buffalo mozzarella, and torn basil leaves that perfume every slice. Baked in a screaming-hot oven, the crust develops leopard-spotted char marks and a satisfying crunch that gives way to a chewy, airy interior. The simplicity is the point: each ingredient must be exceptional because there is nowhere to hide."
+  },
+  {
+    "id": "food003",
+    "name": "Miso Ramen",
+    "cuisine": "Japanese",
+    "calories": 580,
+    "ingredients": [
+      "ramen noodles",
+      "miso paste",
+      "pork belly",
+      "soft-boiled egg",
+      "corn",
+      "nori",
+      "scallions",
+      "sesame oil"
+    ],
+    "cooking_method": "slow-cooked",
+    "taste_profile": "umami, rich, savory",
+    "dietary_type": "non-vegetarian",
+    "description": "Miso Ramen is a soul-warming bowl built on a deeply complex broth that simmers for hours to extract every ounce of umami from pork bones and fermented miso. The wavy noodles soak up the golden, slightly cloudy broth while toppings of chashu pork, a perfectly jammy marinated egg, and crunchy sweet corn create a play of textures. A drizzle of sesame oil floats on the surface, releasing nutty aromas with every spoonful."
+  },
+  {
+    "id": "food004",
+    "name": "Tacos al Pastor",
+    "cuisine": "Mexican",
+    "calories": 380,
+    "ingredients": [
+      "pork",
+      "achiote",
+      "pineapple",
+      "onion",
+      "cilantro",
+      "corn tortillas",
+      "chili peppers",
+      "lime"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "sweet, smoky, tangy, spicy",
+    "dietary_type": "non-vegetarian",
+    "description": "Tacos al Pastor are the result of Lebanese shawarma technique meeting Mexican ingredients, producing one of the world's great street foods. Thinly sliced pork is marinated in achiote and dried chilies, then stacked on a vertical spit and slow-roasted until the exterior caramelizes and crisps. The shaved meat lands on warm corn tortillas with a sliver of sweet pineapple, raw onion, cilantro, and a squeeze of lime \u2014 a perfect storm of flavors."
+  },
+  {
+    "id": "food005",
+    "name": "BBQ Bacon Burger",
+    "cuisine": "American",
+    "calories": 820,
+    "ingredients": [
+      "beef patty",
+      "brioche bun",
+      "cheddar",
+      "bacon",
+      "lettuce",
+      "tomato",
+      "BBQ sauce",
+      "caramelized onions"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "smoky, savory, rich",
+    "dietary_type": "non-vegetarian",
+    "description": "The BBQ Bacon Burger is an unapologetically indulgent American classic \u2014 a thick, juicy beef patty with a charred crust, melted sharp cheddar, crispy smoked bacon, and sticky-sweet BBQ sauce piled high on a toasted brioche bun. The caramelized onions add a jammy sweetness that balances the savory richness, while crisp lettuce and fresh tomato provide the only pretense of virtue. It is the kind of burger that requires two hands and demands full attention."
+  },
+  {
+    "id": "food006",
+    "name": "Palak Paneer",
+    "cuisine": "Indian",
+    "calories": 310,
+    "ingredients": [
+      "spinach",
+      "paneer",
+      "onion",
+      "tomatoes",
+      "cream",
+      "cumin",
+      "garam masala",
+      "ginger",
+      "garlic"
+    ],
+    "cooking_method": "steamed",
+    "taste_profile": "earthy, creamy, mildly spiced",
+    "dietary_type": "vegetarian",
+    "description": "Palak Paneer is a beloved North Indian comfort dish that transforms blanched spinach into a silky, vibrant green sauce enriched with cream and fragrant spices. Firm cubes of fresh paneer absorb the flavors of the sauce while retaining a satisfying, slightly squeaky bite. The dish strikes an elegant balance \u2014 nutritious and hearty from the spinach, yet indulgent from the cream, making it a staple both at weeknight dinners and elaborate feasts."
+  },
+  {
+    "id": "food007",
+    "name": "Sushi Tuna Roll",
+    "cuisine": "Japanese",
+    "calories": 290,
+    "ingredients": [
+      "sushi rice",
+      "raw tuna",
+      "nori",
+      "cucumber",
+      "avocado",
+      "soy sauce",
+      "wasabi",
+      "pickled ginger"
+    ],
+    "cooking_method": "raw",
+    "taste_profile": "clean, fresh, umami",
+    "dietary_type": "non-vegetarian",
+    "description": "A Sushi Tuna Roll is the intersection of precision and freshness \u2014 sushi-grade tuna, crisp cucumber, and creamy avocado rolled in seasoned rice and dark nori, then sliced into perfect cylinders. The tuna is buttery and mild, its clean ocean flavor amplified by a dab of pungent wasabi and a drizzle of salty soy sauce. Each piece is a small, complete world of texture: the soft give of rice, the tender fish, and the faint crunch of cucumber in every bite."
+  },
+  {
+    "id": "food008",
+    "name": "Hummus with Pita",
+    "cuisine": "Middle Eastern",
+    "calories": 220,
+    "ingredients": [
+      "chickpeas",
+      "tahini",
+      "lemon juice",
+      "garlic",
+      "olive oil",
+      "smoked paprika",
+      "pita bread"
+    ],
+    "cooking_method": "raw",
+    "taste_profile": "nutty, tangy, savory",
+    "dietary_type": "vegan",
+    "description": "Hummus is the great unifier of Middle Eastern cuisine \u2014 a silky, cloud-like puree of cooked chickpeas, stone-ground tahini, bright lemon juice, and raw garlic finished with a pool of grassy olive oil and a dusting of smoked paprika. The best hummus has a complex, layered flavor: the bitterness of tahini, the brightness of lemon, and the earthiness of chickpeas all in harmony. Scooped with warm, pillowy pita bread, it is simultaneously a snack, a starter, and a centerpiece."
+  },
+  {
+    "id": "food009",
+    "name": "Caesar Salad",
+    "cuisine": "American",
+    "calories": 350,
+    "ingredients": [
+      "romaine lettuce",
+      "parmesan",
+      "croutons",
+      "anchovies",
+      "egg yolk",
+      "lemon",
+      "garlic",
+      "Worcestershire sauce"
+    ],
+    "cooking_method": "raw",
+    "taste_profile": "savory, tangy, umami",
+    "dietary_type": "vegetarian",
+    "description": "A proper Caesar Salad is far more than lettuce \u2014 it is a textural and flavor masterpiece built on a dressing emulsified from egg yolk, anchovy, garlic, and lemon that coats every crisp, cold romaine leaf in umami-rich, tangy creaminess. Shards of aged Parmesan add sharp, salty pockets and golden croutons provide a buttery crunch that shatters satisfyingly with each forkful. Despite its widespread familiarity, a great Caesar demands technique and quality ingredients that most imitations fail to deliver."
+  },
+  {
+    "id": "food010",
+    "name": "Dal Makhani",
+    "cuisine": "Indian",
+    "calories": 340,
+    "ingredients": [
+      "black lentils",
+      "kidney beans",
+      "butter",
+      "cream",
+      "tomatoes",
+      "ginger",
+      "garlic",
+      "garam masala"
+    ],
+    "cooking_method": "slow-cooked",
+    "taste_profile": "rich, buttery, earthy",
+    "dietary_type": "vegetarian",
+    "description": "Dal Makhani is slow food in the truest sense \u2014 black lentils and kidney beans that simmer overnight on low heat until they collapse into a thick, almost porridge-like consistency, enriched with generous amounts of butter and cream. The result is a dal of extraordinary depth: smoky from the charred tomatoes, earthy from the lentils, and luxuriously silky from the dairy. It is the kind of dish that rewards patience, and a single bite explains why it has been a restaurant staple for generations."
+  },
+  {
+    "id": "food011",
+    "name": "Falafel Wrap",
+    "cuisine": "Middle Eastern",
+    "calories": 420,
+    "ingredients": [
+      "chickpeas",
+      "parsley",
+      "cilantro",
+      "garlic",
+      "cumin",
+      "coriander",
+      "flatbread",
+      "tahini",
+      "tomatoes",
+      "pickles"
+    ],
+    "cooking_method": "fried",
+    "taste_profile": "herby, crispy, earthy",
+    "dietary_type": "vegan",
+    "description": "Falafel is a miracle of humble ingredients \u2014 dried chickpeas ground with fresh herbs and spices, formed into balls and deep-fried until a mahogany crust encases a vivid green, intensely herby interior. Wrapped in soft flatbread with crunchy pickles, ripe tomatoes, and a drizzle of nutty tahini sauce, a falafel wrap delivers complete protein, extraordinary flavor, and pure satisfaction. The textural contrast between the crispy exterior and the dense, moist interior is what makes falafel genuinely addictive."
+  },
+  {
+    "id": "food012",
+    "name": "Pad Thai",
+    "cuisine": "Thai",
+    "calories": 490,
+    "ingredients": [
+      "rice noodles",
+      "shrimp",
+      "tofu",
+      "eggs",
+      "bean sprouts",
+      "scallions",
+      "fish sauce",
+      "tamarind",
+      "peanuts",
+      "lime"
+    ],
+    "cooking_method": "fried",
+    "taste_profile": "sweet, tangy, savory, nutty",
+    "dietary_type": "non-vegetarian",
+    "description": "Pad Thai is Thailand's most iconic street food \u2014 flat rice noodles stir-fried at blistering heat with shrimp, eggs, and tofu in a sauce of tamarind, fish sauce, and palm sugar that creates an irresistible sweet-sour-salty combination. Finished with crushed peanuts for crunch, a handful of fresh bean sprouts for texture, and a lime wedge to squeeze over the top, it is a dish of exquisite balance. Each element is essential; the wok's char, called wok hei, gives Pad Thai its smoky soul."
+  },
+  {
+    "id": "food013",
+    "name": "Risotto ai Funghi",
+    "cuisine": "Italian",
+    "calories": 460,
+    "ingredients": [
+      "arborio rice",
+      "porcini mushrooms",
+      "white wine",
+      "parmesan",
+      "butter",
+      "onion",
+      "vegetable stock",
+      "thyme"
+    ],
+    "cooking_method": "slow-cooked",
+    "taste_profile": "earthy, creamy, savory",
+    "dietary_type": "vegetarian",
+    "description": "Risotto ai Funghi is a masterclass in patience and technique \u2014 Arborio rice coaxed with constant stirring and ladlefuls of warm stock until the starches release into a luxuriously creamy, wave-like consistency that Italians call all'onda. Porcini mushrooms bring an intense, forest-floor earthiness amplified by a splash of white wine and finished with cold butter and aged Parmesan that are stirred in at the end. The result is a dish that manages to feel both rustic and profoundly elegant."
+  },
+  {
+    "id": "food014",
+    "name": "Chicken Biryani",
+    "cuisine": "Indian",
+    "calories": 620,
+    "ingredients": [
+      "basmati rice",
+      "chicken",
+      "yogurt",
+      "saffron",
+      "fried onions",
+      "cardamom",
+      "cloves",
+      "bay leaves",
+      "ghee",
+      "mint"
+    ],
+    "cooking_method": "baked",
+    "taste_profile": "aromatic, rich, savory, slightly sweet",
+    "dietary_type": "non-vegetarian",
+    "description": "Chicken Biryani is perhaps the grandest rice dish in the world \u2014 layers of fragrant saffron-tinted basmati rice and spiced, marinated chicken slow-cooked sealed under a dough lid so that every grain absorbs the perfumed steam. When the pot is opened at the table, the release of cardamom, clove, and rose water is theatrical and intoxicating. The chicken emerges impossibly tender, coated in a caramelized yogurt crust, while the rice offers long, distinct grains \u2014 each a tiny vessel of concentrated flavor."
+  },
+  {
+    "id": "food015",
+    "name": "Guacamole with Tortilla Chips",
+    "cuisine": "Mexican",
+    "calories": 250,
+    "ingredients": [
+      "avocado",
+      "lime juice",
+      "cilantro",
+      "white onion",
+      "jalapeno",
+      "tomato",
+      "salt",
+      "tortilla chips"
+    ],
+    "cooking_method": "raw",
+    "taste_profile": "creamy, tangy, fresh, mildly spicy",
+    "dietary_type": "vegan",
+    "description": "Great guacamole begins with perfectly ripe Hass avocados smashed just enough to preserve chunky texture, then brightened with fresh lime juice, spiked with finely minced jalapeno, and studded with chopped white onion, tomato, and fragrant cilantro. It is a dish that takes thirty seconds to ruin and years to perfect \u2014 the avocado must be at its exact window of ripeness. Served with deeply fried, salty tortilla chips, every scoop delivers a contrast of cool, creamy avocado against the warm crunch of the chip."
+  },
+  {
+    "id": "food016",
+    "name": "Miso Soup",
+    "cuisine": "Japanese",
+    "calories": 45,
+    "ingredients": [
+      "dashi stock",
+      "miso paste",
+      "tofu",
+      "wakame seaweed",
+      "scallions"
+    ],
+    "cooking_method": "steamed",
+    "taste_profile": "umami, light, savory",
+    "dietary_type": "vegan",
+    "description": "Miso Soup is Japan's daily ritual in a bowl \u2014 a quiet, contemplative broth made from dashi stock dissolved with fermented miso paste, dotted with silken tofu cubes and rehydrated wakame seaweed. Despite its simplicity, the flavor is remarkably complex: the dashi provides a clean, ocean-scented base while the miso adds fermented depth and the gentle bitterness of good salt. It is the lowest-calorie item on any Japanese menu and yet one of the most satisfying, warming the body from the inside out."
+  },
+  {
+    "id": "food017",
+    "name": "Beef Shawarma",
+    "cuisine": "Middle Eastern",
+    "calories": 480,
+    "ingredients": [
+      "beef",
+      "flatbread",
+      "tahini",
+      "garlic sauce",
+      "pickled turnip",
+      "tomatoes",
+      "parsley",
+      "cumin",
+      "allspice",
+      "turmeric"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "savory, garlicky, smoky",
+    "dietary_type": "non-vegetarian",
+    "description": "Beef Shawarma is Middle Eastern street food perfected \u2014 thinly sliced, intensely spiced beef shaved from a rotating spit, wrapped in warm flatbread with crunchy pickled turnips, fresh tomatoes, parsley, and a flooding of garlic sauce and tahini. The slow rotation means the outermost layer of meat is always caramelized and crisp, while the interior remains juicy and tender. The combination of textures and the bold spice profile of allspice, cumin, and turmeric make each wrap a complex, deeply satisfying meal."
+  },
+  {
+    "id": "food018",
+    "name": "Grilled Salmon with Asparagus",
+    "cuisine": "American",
+    "calories": 380,
+    "ingredients": [
+      "salmon fillet",
+      "asparagus",
+      "lemon",
+      "olive oil",
+      "garlic",
+      "dill",
+      "capers",
+      "black pepper"
+    ],
+    "cooking_method": "grilled",
+    "taste_profile": "light, fresh, savory, slightly smoky",
+    "dietary_type": "gluten-free",
+    "description": "Grilled Salmon with Asparagus is the gold standard of clean, healthful cooking \u2014 a thick salmon fillet seared over high heat until the skin crisps and the flesh develops beautiful caramelization while remaining silky and medium-rare at the center. The asparagus spears char at the tips, sweetening and intensifying as they cook. A squeeze of lemon, a scattering of fresh dill, and a few briny capers complete this dish that manages to feel indulgent despite being genuinely nutritious."
+  },
+  {
+    "id": "food019",
+    "name": "Vegetable Enchiladas",
+    "cuisine": "Mexican",
+    "calories": 390,
+    "ingredients": [
+      "corn tortillas",
+      "black beans",
+      "corn",
+      "bell peppers",
+      "zucchini",
+      "enchilada sauce",
+      "cheddar",
+      "sour cream",
+      "cilantro"
+    ],
+    "cooking_method": "baked",
+    "taste_profile": "savory, mildly spicy, tangy",
+    "dietary_type": "vegetarian",
+    "description": "Vegetable Enchiladas are a celebration of Mexican pantry staples \u2014 corn tortillas stuffed with a hearty filling of black beans, charred bell peppers, sweet corn, and tender zucchini, then rolled, smothered in deep-red enchilada sauce, and blanketed with melted cheddar before going into the oven. They emerge bubbling and golden, the sauce soaking into the tortillas to create a soft, intensely flavored outer layer. A cold dollop of sour cream and fresh cilantro provide the contrast that ties everything together."
+  },
+  {
+    "id": "food020",
+    "name": "Tempura Vegetables",
+    "cuisine": "Japanese",
+    "calories": 320,
+    "ingredients": [
+      "sweet potato",
+      "eggplant",
+      "shishito peppers",
+      "shiitake mushrooms",
+      "tempura batter",
+      "ice water",
+      "dipping sauce",
+      "daikon"
+    ],
+    "cooking_method": "fried",
+    "taste_profile": "light, crispy, delicate",
+    "dietary_type": "vegetarian",
+    "description": "Japanese Tempura is an exercise in restraint \u2014 vegetables coated in an ice-cold, barely-mixed batter and submerged in 180-degree oil for just seconds, emerging with a gossamer-thin coating that shatters like a shell at first bite. The batter's role is purely structural; it should not be tasted, only provide a vehicle for the vegetable's own sweetness and moisture to express itself. Dipped in a tsuyu broth with finely grated daikon, tempura is simultaneously one of the most technically demanding and most ethereal of Japanese dishes."
+  },
+  {
+    "id": "food021",
+    "name": "Osso Buco",
+    "cuisine": "Italian",
+    "calories": 580,
+    "ingredients": [
+      "veal shanks",
+      "white wine",
+      "tomatoes",
+      "carrot",
+      "celery",
+      "onion",
+      "gremolata",
+      "lemon zest",
+      "parsley",
+      "garlic"
+    ],
+    "cooking_method": "slow-cooked",
+    "taste_profile": "rich, savory, aromatic",
+    "dietary_type": "non-vegetarian",
+    "description": "Osso Buco is Milanese slow-cooking at its most magnificent \u2014 cross-cut veal shanks braised for hours in white wine and vegetables until the meat falls from the bone in long, silky strands and the collagen from the marrow melts into the sauce, thickening it to a glossy, spoon-coating consistency. The traditional garnish of gremolata \u2014 raw garlic, lemon zest, and parsley \u2014 is scattered over the top moments before serving, cutting through the richness with a burst of brightness that makes each bite feel simultaneously heavy and alive."
+  },
+  {
+    "id": "food022",
+    "name": "Tabbouleh",
+    "cuisine": "Middle Eastern",
+    "calories": 180,
+    "ingredients": [
+      "bulgur wheat",
+      "parsley",
+      "mint",
+      "tomatoes",
+      "cucumber",
+      "lemon juice",
+      "olive oil",
+      "scallions",
+      "salt"
+    ],
+    "cooking_method": "raw",
+    "taste_profile": "fresh, herby, tangy, light",
+    "dietary_type": "vegan",
+    "description": "Tabbouleh is a herb salad masquerading as a grain salad \u2014 mountains of finely chopped flat-leaf parsley and fresh mint are the stars, with bulgur wheat playing a supporting, textural role rather than being the bulk of the dish. Ripe tomatoes, cucumber, and scallions contribute freshness and moisture, while a generous dressing of lemon juice and olive oil ties everything together with brightness. It is a dish of extraordinary vitality \u2014 cool, vibrant, and intensely green \u2014 that feels genuinely restorative on a warm day."
+  },
+  {
+    "id": "food023",
+    "name": "Buffalo Wings",
+    "cuisine": "American",
+    "calories": 550,
+    "ingredients": [
+      "chicken wings",
+      "hot sauce",
+      "butter",
+      "garlic powder",
+      "celery",
+      "blue cheese dressing",
+      "white vinegar"
+    ],
+    "cooking_method": "fried",
+    "taste_profile": "spicy, tangy, savory",
+    "dietary_type": "non-vegetarian",
+    "description": "Buffalo Wings are an American bar-food icon \u2014 chicken wings deep-fried until the skin crisps into lacquered, crackling shells, then tossed hot in a glossy sauce of melted butter and cayenne-forward hot sauce that coats every surface in a fiery, tangy sheen. The heat builds steadily and insistently, making the accompanying blue cheese dip and cool celery sticks not optional luxuries but essential relief. A great Buffalo Wing is simultaneously one of the messiest and most satisfying foods in the American culinary canon."
+  },
+  {
+    "id": "food024",
+    "name": "Green Curry with Tofu",
+    "cuisine": "Thai",
+    "calories": 370,
+    "ingredients": [
+      "tofu",
+      "coconut milk",
+      "green curry paste",
+      "bamboo shoots",
+      "Thai basil",
+      "kaffir lime leaves",
+      "fish sauce substitute",
+      "jasmine rice"
+    ],
+    "cooking_method": "steamed",
+    "taste_profile": "spicy, creamy, aromatic, herby",
+    "dietary_type": "vegan",
+    "description": "Thai Green Curry is the most aromatic of the Thai curries, built on a paste of fresh green chilies, lemongrass, galangal, and kaffir lime that is fried until fragrant before coconut milk is added in stages to create a sauce of breathtaking complexity. Silken tofu absorbs the curry like a sponge, and bamboo shoots add a woody crunch. The finishing handful of Thai basil releases a clove-like perfume that is unmistakably Southeast Asian and instantly intoxicating."
+  },
+  {
+    "id": "food025",
+    "name": "Mac and Cheese",
+    "cuisine": "American",
+    "calories": 640,
+    "ingredients": [
+      "elbow macaroni",
+      "sharp cheddar",
+      "gruyere",
+      "whole milk",
+      "butter",
+      "flour",
+      "mustard powder",
+      "breadcrumbs",
+      "nutmeg"
+    ],
+    "cooking_method": "baked",
+    "taste_profile": "rich, creamy, savory",
+    "dietary_type": "vegetarian",
+    "description": "Baked Mac and Cheese is the definitive American comfort food \u2014 a bechamel sauce enriched with two varieties of melted cheese enveloping soft macaroni, then topped with buttered breadcrumbs and baked until the top forms a golden, shattering crust hiding a bubbling, molten interior. The mustard powder and pinch of nutmeg in the sauce are invisible but essential \u2014 they add depth that prevents the dish from being merely rich and instead makes it genuinely complex. This is a dish that adults eat and feel like children again."
+  },
+  {
+    "id": "food026",
+    "name": "Samosa",
+    "cuisine": "Indian",
+    "calories": 260,
+    "ingredients": [
+      "potatoes",
+      "peas",
+      "cumin seeds",
+      "coriander",
+      "garam masala",
+      "pastry dough",
+      "green chili",
+      "ginger",
+      "chutney"
+    ],
+    "cooking_method": "fried",
+    "taste_profile": "savory, spiced, crispy",
+    "dietary_type": "vegan",
+    "description": "The Samosa is South Asia's most beloved snack \u2014 a crisp, golden pastry pyramid with a flaky, oil-blistered shell encasing a filling of spiced potato and peas that is fragrant with cumin, coriander, and garam masala. When bitten into, the sharp crack of the crust gives way to the yielding, warmly spiced interior, creating one of the most satisfying textural contrasts in street food. Served with bright green mint chutney and deep brown tamarind chutney, the samosa becomes a complete sensory experience."
+  },
+  {
+    "id": "food027",
+    "name": "Kung Pao Chicken",
+    "cuisine": "Chinese",
+    "calories": 420,
+    "ingredients": [
+      "chicken",
+      "dried chilies",
+      "Sichuan peppercorns",
+      "peanuts",
+      "scallions",
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "rice vinegar",
+      "cornstarch"
+    ],
+    "cooking_method": "fried",
+    "taste_profile": "spicy, numbing, sweet, savory",
+    "dietary_type": "non-vegetarian",
+    "description": "Kung Pao Chicken is Sichuan cuisine's most globally recognized dish \u2014 tender diced chicken stir-fried at explosive heat with dried chilies, whole Sichuan peppercorns, and crunchy peanuts in a sauce that is simultaneously sweet, sour, and salty. The Sichuan peppercorns do not simply add heat but create a curious numbness on the lips and tongue \u2014 the ma la effect \u2014 that is unique in the culinary world and deeply addictive once experienced. It is a dish of extraordinary complexity hidden beneath an apparently simple preparation."
+  },
+  {
+    "id": "food028",
+    "name": "Avocado Toast with Poached Egg",
+    "cuisine": "American",
+    "calories": 340,
+    "ingredients": [
+      "sourdough bread",
+      "avocado",
+      "poached egg",
+      "chili flakes",
+      "lemon",
+      "olive oil",
+      "microgreens",
+      "flaky salt"
+    ],
+    "cooking_method": "baked",
+    "taste_profile": "creamy, fresh, savory",
+    "dietary_type": "vegetarian",
+    "description": "Avocado Toast with a Poached Egg has earned its place in the brunch canon through genuine merit rather than just trendiness \u2014 the char and chew of toasted sourdough provides structural contrast to the cool, buttery avocado smash, while a perfectly poached egg crowns the whole thing with a yolk that breaks and floods the surface with rich, golden sauce. Chili flakes add gentle heat, flaky sea salt provides crunch and seasoning, and a squeeze of lemon wakes everything up. It is a dish that is far more than the sum of its parts."
+  },
+  {
+    "id": "food029",
+    "name": "Mapo Tofu",
+    "cuisine": "Chinese",
+    "calories": 310,
+    "ingredients": [
+      "silken tofu",
+      "ground pork",
+      "doubanjiang",
+      "Sichuan peppercorns",
+      "black bean sauce",
+      "garlic",
+      "ginger",
+      "scallions",
+      "chicken stock"
+    ],
+    "cooking_method": "steamed",
+    "taste_profile": "fiery, numbing, savory, fermented",
+    "dietary_type": "non-vegetarian",
+    "description": "Mapo Tofu is one of Sichuan cooking's defining dishes \u2014 silken tofu cubes swimming in a brilliant red, intensely aromatic sauce made from doubanjiang fermented chili paste, black beans, and ground pork, finished with a landslide of Sichuan peppercorns that make the whole mouth tingle and go pleasantly numb. The tofu is impossibly soft and provides a gentle, neutral backdrop for the fireworks of flavor happening around it. It is a dish that demands attention and respect for its fearless heat and complexity."
+  },
+  {
+    "id": "food030",
+    "name": "Pozole Rojo",
+    "cuisine": "Mexican",
+    "calories": 430,
+    "ingredients": [
+      "hominy corn",
+      "pork shoulder",
+      "guajillo chilies",
+      "ancho chilies",
+      "garlic",
+      "oregano",
+      "cabbage",
+      "radishes",
+      "lime",
+      "tostadas"
+    ],
+    "cooking_method": "slow-cooked",
+    "taste_profile": "rich, earthy, mildly spicy",
+    "dietary_type": "non-vegetarian",
+    "description": "Pozole Rojo is one of Mexico's oldest ceremonial foods \u2014 a thick, almost prehistoric stew of hominy corn and pork simmered for hours in a deep-red broth made from dried guajillo and ancho chilies that stains everything with their brick-red pigment and complex, smoky depth. The hominy swells to the size of small flowers and has a uniquely soft, chewy texture unlike any other grain. Served with a feast of garnishes \u2014 shredded cabbage, crisp radishes, dried oregano, and lime \u2014 each bowl is customized by the diner into their own perfect meal."
+  }
+]

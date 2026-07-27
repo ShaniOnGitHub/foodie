@@ -1,0 +1,21 @@
+# ChromaDB persistent store (auto-created on first run)
+chroma_data/
+
+# Environment variables — never commit your actual key
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
