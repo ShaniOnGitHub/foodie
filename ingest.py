@@ -6,8 +6,8 @@ ChromaDB client setup and data ingestion for the Food Recommender.
 Responsibilities:
   - Create (or reuse) the ChromaDB collection with cosine space + mxbai EF
   - Convert each food item dict into a natural-language string before embedding
-  - upsert() all 30 items (idempotent — safe to call on every app startup)
-  - Gate: skip ingestion entirely if collection already has 30 documents
+  - upsert() all 40 items (idempotent — safe to call on every app startup)
+  - Gate: skip ingestion entirely if collection already has 40 documents
 """
 
 import json
@@ -78,7 +78,7 @@ def record_to_text(item: dict) -> str:
 # ---------------------------------------------------------------------------
 def ingest(collection: chromadb.Collection) -> None:
     """
-    Load food_data.json and upsert all 30 items into ChromaDB.
+    Load food_data.json and upsert all 40 items into ChromaDB.
 
     Gate: if the collection already holds EXPECTED_COUNT documents, skip
     ingestion entirely. This means the first app startup embeds everything
